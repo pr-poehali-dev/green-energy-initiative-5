@@ -3,23 +3,21 @@ export function Footer() {
     <footer className="py-16 md:py-24 border-t border-border">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid md:grid-cols-4 gap-12 mb-16">
-          {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
+              <img src="/images/hously-logo.svg" alt="КаналДом" width={120} height={32} className="w-auto h-6" />
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Создаем пространства для жизни. Архитектурный опыт, где форма, свет и намерение встречаются.
+              Системы канализации для частных домов. Проектируем, устанавливаем и обслуживаем — по всей России.
             </p>
           </div>
 
-          {/* Navigation */}
           <div>
-            <h4 className="text-sm font-medium mb-4">Студия</h4>
+            <h4 className="text-sm font-medium mb-4">Компания</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
                 <a href="#projects" className="hover:text-foreground transition-colors">
-                  Проекты
+                  Наши работы
                 </a>
               </li>
               <li>
@@ -40,18 +38,17 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:hello@prostranstvo.ru" className="hover:text-foreground transition-colors">
-                  hello@prostranstvo.ru
+                <a href="mailto:info@kanal-dom.ru" className="hover:text-foreground transition-colors">
+                  info@kanal-dom.ru
                 </a>
               </li>
               <li>
-                <a href="tel:+74951234567" className="hover:text-foreground transition-colors">
-                  +7 (495) 123-45-67
+                <a href="tel:+78001234567" className="hover:text-foreground transition-colors">
+                  8 800 123-45-67
                 </a>
               </li>
               <li>
@@ -68,9 +65,8 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Пространство. Все права защищены.</p>
+          <p>© 2025 КаналДом. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности
